@@ -1,0 +1,31 @@
+[project]
+name = "word-comparison"
+version = "0.1.0"
+description = "A Python tool for comparing content differences between Word documents"
+readme = "README.md"
+requires-python = ">=3.12"
+authors = [
+    {name = "Your Name", email = "your.email@example.com"}
+]
+license = {text = "MIT"}
+keywords = ["word", "document", "comparison", "docx"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.12",
+]
+dependencies = [
+    "python-docx>=0.8.11",
+    "requests>=2.32.4",
+]
+
+[project.urls]
+Homepage = "https://github.com/CrueChan/word-comparison"
+Repository = "https://github.com/CrueChan/word-comparison"
+Issues = "https://github.com/CrueChan/word-comparison/issues"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
