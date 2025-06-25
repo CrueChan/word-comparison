@@ -77,4 +77,3 @@ Issues and Pull Requests are welcome to improve this project.
 ## License
 
 [MIT License](LICENSE)
-```
